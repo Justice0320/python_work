@@ -1,13 +1,10 @@
-cars = ["ford", "honda", "Lamborghini", "McLaren"]
+cars = ['bmw', 'audi', 'toyota', 'subaru']
 
-message = "My next car will be a " + cars[0] + "."
-print(message)
+print("Here is the original list: ")
+print(cars)
 
-message = "My next car will be a " + cars[1] + "."
-print(message)
+print("\nHere is the sorted list;")
+print(sorted(cars))
 
-message = "My next car will be a " + cars[2] + "."
-print(message)
-
-message = "My next car will be a " + cars[3] + "."
-print(message)
+print("\nHere is the original list again: ")
+print(cars)
