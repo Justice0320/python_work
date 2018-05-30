@@ -53,3 +53,5 @@ message = "This is an invitatioin to " + guest_list[5].title() + " inviting you 
 print(message)
 
 print(guest_list)
+
+print(len(guest_list))
